@@ -10,7 +10,9 @@ body {
 
 /*Header*/
 .page-header h1 {
-    color: white;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    background-color: white;
 }
 
 /*Select Leader Button*/
@@ -19,7 +21,8 @@ body {
 /*Aligns the links below the button*/
 .sort-leader {
     position: relative;
-    display: inline-block;
+    display: block;
+    background-color: red;
 }
 
 .dropdown-leader {

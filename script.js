@@ -36,13 +36,13 @@ console.log(vader.totalWins());
 console.log(vader.totalLosses());
 console.log(`You have a ${vader.winLossRatio()}% win rate`);
 
-//Object contains leader, wins, losses, method to add win and loss, method to calc w/l ratio 
-
 //graph w/l per date
 
 
 //Future iterations 
 
+//Interface DOM to get buttons working
+//Learn and setup local storage to begin storing entries permenantly
 //store deck compilation**
 //store sideboard
 //buttons to move card from sideboard to main and vice versa**

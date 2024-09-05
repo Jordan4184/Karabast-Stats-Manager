@@ -29,10 +29,23 @@
     </div>
     <div class="win-stats">
         <div id="win-div">
-            <button id="win-button">Win</button> <br></br>
+            <button id="win-button">Win</button>
+            <script>
+                let winButtonColor = document.getElementById('win-button');
+                winButtonColor.addEventListener('click', function() {
+                    winButtonColor.style.backgroundColor = 'green';
+                });
+            </script>
+            <br></br>
         </div>
         <div id="lose-div">
             <button id="lose-button">Lose</button>
+            <script>
+                let loseButtonColor = document.getElementById('lose-button');
+                loseButtonColor.addEventListener('click', function() {
+                    loseButtonColor.style.backgroundColor = 'red';
+                });
+            </script>
         </div>
     </div>  
 </body>
