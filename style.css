@@ -43,5 +43,23 @@ body {
     display: block;
 }
 
+/*sort leader button*/
+.sort-leader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-leader a:hover {background-color: #ff0000;}
+
+/*Win/Lose buttons*/
+
+/*button centering*/ 
+.win-stats {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
